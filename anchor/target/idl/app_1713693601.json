@@ -1,7 +1,7 @@
 {
   "address": "5SkVTeXdssuUaVxY2EXuJVnhCtWcgrP1AdF4uTPsBh6k",
   "metadata": {
-    "name": "app_1713693601",
+    "name": "app1713693601",
     "version": "0.1.0",
     "spec": "0.1.0",
     "description": "Created with Anchor"
@@ -26,7 +26,7 @@
           "signer": true
         },
         {
-          "name": "app_1713693601",
+          "name": "app1713693601",
           "writable": true
         }
       ],
@@ -46,7 +46,7 @@
       ],
       "accounts": [
         {
-          "name": "app_1713693601",
+          "name": "app1713693601",
           "writable": true
         }
       ],
@@ -66,7 +66,7 @@
       ],
       "accounts": [
         {
-          "name": "app_1713693601",
+          "name": "app1713693601",
           "writable": true
         }
       ],
@@ -91,12 +91,12 @@
           "signer": true
         },
         {
-          "name": "app_1713693601",
+          "name": "app1713693601",
           "writable": true,
           "signer": true
         },
         {
-          "name": "system_program",
+          "name": "systemProgram",
           "address": "11111111111111111111111111111111"
         }
       ],
@@ -116,7 +116,7 @@
       ],
       "accounts": [
         {
-          "name": "app_1713693601",
+          "name": "app1713693601",
           "writable": true
         }
       ],
@@ -130,7 +130,7 @@
   ],
   "accounts": [
     {
-      "name": "App1713693601",
+      "name": "app1713693601",
       "discriminator": [
         7,
         240,
@@ -145,7 +145,7 @@
   ],
   "types": [
     {
-      "name": "App1713693601",
+      "name": "app1713693601",
       "type": {
         "kind": "struct",
         "fields": [

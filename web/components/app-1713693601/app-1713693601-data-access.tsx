@@ -1,6 +1,6 @@
 'use client'
 
-import { App1713693601IDL, getApp1713693601ProgramId } from '@app-1713693601/anchor'
+import { App1713693601, App1713693601IDL, getApp1713693601ProgramId } from '@app-1713693601/anchor'
 import { Program } from '@coral-xyz/anchor'
 import { useConnection } from '@solana/wallet-adapter-react'
 import { Cluster, Keypair, PublicKey } from '@solana/web3.js'
@@ -17,7 +17,7 @@ export function useApp1713693601Program() {
   const transactionToast = useTransactionToast()
   const provider = useAnchorProvider()
   const programId = useMemo(() => getApp1713693601ProgramId(cluster.network as Cluster), [cluster])
-  const program = new Program(App1713693601IDL, programId, provider)
+  const program = new Program(App1713693601IDL as App1713693601, provider)
 
   const accounts = useQuery({
     queryKey: ['app-1713693601', 'all', { cluster }],
